@@ -29,11 +29,7 @@ module.exports = {
         name: 'Host',
         remotes: {
             OurReactComponent: 'OurReactComponent@https://graphan.github.io/micro-react-webpack-module/remoteEntry.js',
-        },
-        shared: {
-            react: { singleton: true, eager: true },
-            "react-dom": { singleton: true, eager: true }
-        },
+          }
     }),
   ],
 };
